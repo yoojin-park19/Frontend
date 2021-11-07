@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'CookieRunOTF-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    line-height: 1;
+    position: relative;
+}
+.home-btn {
+    display: block;
+   text-decoration: none;
+   padding: 20px 30px;
+}
+.fas {
+    font-size: 35px;
+    color: #000;
+    font-weight: 900;
+}
+.fa-home::before {
+    content: "\f015";
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'CookieRunOTF-Bold';
+}
+.fa-buliding {
+    content: "\f1ad";
+}
+h2,p {
+    text-align: center;
+    padding-top: 30px;
+}
+.business {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.aboutus {
+    width: 100px;
+    height: 100px;
+}
+
+.business>li {
+    padding-right: 70px;
+}
