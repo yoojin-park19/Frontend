@@ -1,0 +1,56 @@
+/* navigation */
+nav {
+    display: flex;
+    background-color: white;
+    font-family: arial, x-locale-body, sans-serif;
+    font-size: 100%;
+    line-height: 1.75;
+    vertical-align: top;
+    margin: 40px 30px 10px;
+}
+
+.logo { 
+    width: 250px;
+    height: 55px;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    font-family: arial, x-locale-body, sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.nav-menu li {
+    margin-right: 100px;
+}
+
+.nav-menu li::before {
+    content: '\f0da';
+    font-family: "Font Awesome 5 Free";
+}
+
+.find {
+    display: flex;
+    border: 2px solid #1b1b1b;
+    color: #1b1b1b;
+    min-width: 60px;
+    width: 350px;
+    box-sizing: border-box;
+    position: relative
+}
+.find input {
+    width: 100%;
+    line-height: 18px;
+    border: none;
+}
+.optical {
+    background-size: scontain;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
