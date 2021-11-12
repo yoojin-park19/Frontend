@@ -1,56 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap');
+
+
 /* navigation */
-nav {
+.cont-menu {
     display: flex;
-    background-color: white;
-    font-family: arial, x-locale-body, sans-serif;
-    font-size: 100%;
-    line-height: 1.75;
-    vertical-align: top;
-    margin: 40px 30px 10px;
+    margin: 35px 100px 25px 40px;
 }
 
-.logo { 
-    width: 250px;
-    height: 55px;
-    margin-right: 50px;
+.cont-menu .mdn-logo {
+    width: 210px;
+    margin-right: 60px;
 }
 
-.nav-menu {
+.cont-menu .nav-menu {
     display: flex;
-    font-family: arial, x-locale-body, sans-serif;
     font-size: 100%;
-    font-weight: 700;
+    text-decoration: none;
+}
+
+.cont-menu .nav-menu li {
+    padding-right: 100px;
+    display: flex;
     vertical-align: top;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-family: arial, x-locale-body, sans-serif;
+    color: #1b1b1b;
 }
 
-.nav-menu li {
-    margin-right: 100px;
+.cont-menu .nav-menu li:last-child {
+    padding-right: 80px;
 }
 
-.nav-menu li::before {
+.cont-menu .nav-menu li::before {
+    display: block;
     content: '\f0da';
     font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    padding-right: 8px;
 }
 
-.find {
-    display: flex;
-    border: 2px solid #1b1b1b;
-    color: #1b1b1b;
-    min-width: 60px;
+.cont-menu .nav-menu a {
+    color: #000;
+    font-weight: bold;
+}
+
+.find-menu {
+    position: relative;
     width: 350px;
-    box-sizing: border-box;
-    position: relative
+    height: 40px;
+    border: 2px solid #000;
+    vertical-align: top;
+    margin-top: 20px
 }
-.find input {
-    width: 100%;
-    line-height: 18px;
-    border: none;
-}
-.optical {
-    background-size: scontain;
-    width: 30px;
+
+.find-menu .txt-search {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    left: 0;
+    border: none;
+    width: 99%;
+    vertical-align: top;
+    margin-top: 10px;
 }
+
+.find-menu .btn-search {
+    position: absolute;
+    right: 3px;
+    top: 7px;
+    display: block;
+    width: 37px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+}
+
+/* HEADER */
+.cont-header {
+    background-color: #83bfff;
+    padding: 70px 0;
+
+}
+
+.cont-header h1 {
+    margin: 10px 330px 60px;
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    font-size: 39px;
+    line-height: 47px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+}
+
+.cont-header .header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-header .header-menu a {
+    display: flex;
+    width: 250px;
+    margin-right: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid #1b1b1b;
+    color: #1b1b1b;
+    position: relative;
+}
+.cont-header .header-menu a::after {
+    display: block;
+    content: '\f061';
+    font-family: "Font Awesome 5 Free";;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+}
+
+/* MAIN */
+
+#main {
+    display: flex;
+}
+.mdn-blog {
+    width: 900px;
+    margin: 70px 80px 70px 30px;
+}
+.mdn-blog .tit-blog {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+}
+.mdn-blog .readmore {
+    display: inline-block;
+    margin-top: 5px;
+    color: #005282;
+}
+.mdn-blog .txt-blog li {
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 12px;
+}
+.mdn-blog .txt-blog h3{
+    font-family: 'Zilla Slab', serif;
+    font-size: 31px;
+    line-height: 37px;
+    color: #005282;
+    margin-bottom: 10px;
+}
+.mdn-blog .txt-blog p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.mdn-blog .txt-blog .posted {
+    font-style: italic;
+    font-size: 14px;
+    color: #1b1b1b;
+}
+
+/* ARTICLE */
+.cont-art {
+    width: 600px;
+    margin: 70px 30px 30px 20px;
+}
+.cont-art .tit-art {
+    margin-bottom: 24px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #1b1b1b;
+}
+.cont-art p, .cont-art .art-menu {
+    line-height: 1.5;
+    font-family: arial, x-locale-body, sans-serif;
+    font-weight: 400;
+}
+.cont-art .art-menu a {
+    display: inline-block;
+    color: #005282;
+    border-bottom: 1px solid #f4f4f4;;
+    margin-bottom: 12px;
+}
+
+/* FOOTER */
