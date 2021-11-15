@@ -1,0 +1,81 @@
+
+/* header */
+header {
+    color: #fff;
+    background-color: #1b1b1b;
+}   
+header h1{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 40px 400px 50px 40px;
+}
+.list-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 24px;
+    align-items: flex-end;
+    margin: 0 40px;
+}
+.list-menu a {
+    font-weight: 900;
+    color: #fff;
+}
+.list-menu a:hover {
+    color: deeppink;
+}
+/* main */
+.main-section {
+    display: flex;
+}
+/* section */
+.cont-info {
+    width: 70%;
+    box-sizing: border-box;
+}
+.cont-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+    background-color: #777;
+    color: #fff;
+}
+
+.cont-info .list-info li {
+    padding-top: 10px;
+    border-bottom: 2px solid #777;
+    width: 100%;
+    height: 150px; 
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* aside */
+.cont-sns {
+    width: 30%;
+    border-bottom: 2px double #777;
+    border-left: 2px double #777;
+    box-sizing: border-box;
+}
+.cont-sns h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+/* footer */
+.footer {
+    background-color: #777;
+    color: #fff;
+}
+.footer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.footer a {
+    display: block;
+    margin: 15px 20px;
+    color: #fff;
+}
